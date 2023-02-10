@@ -27,5 +27,8 @@ public class Address {
     private UserBase userBase;
 
     @Column(columnDefinition = "varchar(30) DEFAULT '' COMMENT '地址'")
-    private String address;
+    private String saddress;
+
+
+
 }
